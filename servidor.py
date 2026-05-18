@@ -17,7 +17,7 @@ def datos():
         "TRM": f"${trm:,.2f}",
         "fecha": datetime.now().strftime("%d/%m/%Y"),
         "hora": datetime.now().strftime("%H:%M"),
-        "mensaje": f"TECNOLOSYS | TRM: ${trm:,.2f} | {datetime.now().strftime('%d/%m/%Y')}"
+        "mensaje": f"TECNOLOSYS | TRM: ${trm:,.2f} | {datetime.now().strftime('%d/%m/%Y %H:%M')}"
     })
 
 if __name__ == '__main__':
